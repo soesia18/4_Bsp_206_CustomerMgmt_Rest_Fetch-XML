@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <element name="customers">
+            <oneOrMore>
+                <element name="customer">
+                    <attribute name="id">
+                        <data type="integer"/>
+                    </attribute>
+                    <element name="customerName">
+                        <data type="NCName"/>
+                    </element>
+                    <element name="customerAddress">
+                        <data type="NCName"/>
+                    </element>
+                    <element name="sales">
+                        <data type="decimal"/>
+                    </element>
+                </element>
+            </oneOrMore>
+        </element>
+    </start>
+</grammar>

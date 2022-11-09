@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customers>
+    <customer id="1">
+        <customerName>Simon</customerName>
+        <customerAddress>Großfelgitsch</customerAddress>
+        <sales>10.0</sales>
+    </customer>
+    <customer id="1">
+        <customerName>Simon</customerName>
+        <customerAddress>Großfelgitsch</customerAddress>
+        <sales>10.0</sales>
+    </customer>
+</customers>
